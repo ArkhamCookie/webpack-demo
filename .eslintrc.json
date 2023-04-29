@@ -1,0 +1,13 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended",
+        "standard"
+    ],
+    "rules": {
+        "indent": ["warn", "tab"],
+        "no-tabs": "off",
+        "no-unused-vars": ["warn", { "vars": "local" }],
+		"prefer-const": "off"
+    }
+}
